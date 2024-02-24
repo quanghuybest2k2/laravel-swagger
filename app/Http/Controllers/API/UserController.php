@@ -18,10 +18,6 @@ class UserController extends Controller
      *         response=200,
      *         description="successful operation",
      *         @OA\JsonContent(ref="#/components/schemas/User"),
-     *         @OA\MediaType(
-     *             mediaType="application/xml",
-     *             @OA\Schema(ref="#/components/schemas/User")
-     *         )
      *     ),
      *     @OA\Response(
      *         response=400,
